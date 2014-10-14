@@ -44,7 +44,7 @@ module Jekyll
 
     def convert(content)
 
-      return  KARAS::convert(content, File.expand_path("../plugins", __FILE__))
+      return  KARAS::convert(content, File.expand_path("../plugins", __FILE__), 1)
     end
   end
 end
